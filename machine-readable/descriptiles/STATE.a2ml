@@ -10,7 +10,7 @@ status = "paused"
 
 [project-context]
 name = "TARDIS"
-purpose = "Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line."
+purpose = "Seventh Stealth Glider investigation (reserved). TARDIS = Totally-Adherent Rule-Disruption Imitation System: make a Conway Game of Life set-up look as much like 'reality' as it possibly can while never breaking B3/S23. 'Totally' is deliberate: it only appears to break the rules. Hard invariant: Conway-lawful (checkable). Open target: resembles reality (unmeasured until a measure is chosen). Lifetime, open-ended research, probably never completed; adaptable as a maths challenge, education on constraints or game-design thinking. Intent recorded 2026-09-02 (owner ruling); no implementation yet."
 completion-percentage = 0
 
 [position]
@@ -25,12 +25,12 @@ milestones = [
 
 [blockers-and-issues]
 issues = [
-  "Scope of this investigation is not yet specified; nothing beyond the reserved scaffold exists.",
+  "Intent is recorded (2026-09-02) but not specified; nothing beyond the reserved scaffold exists.",
 ]
 
 [critical-next-actions]
 actions = [
-  "Specify the investigation and record it in ECOSYSTEM [position] purpose and docs/status/ROADMAP.adoc.",
+  "Turn the recorded intent into a specification (question, boundaries, first gate) in docs/status/ROADMAP.adoc and ECOSYSTEM [position].",
   "Move CLADE phase from reserved to incubating when the first content lands.",
 ]
 
