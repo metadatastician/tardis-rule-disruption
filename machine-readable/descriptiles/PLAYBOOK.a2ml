@@ -117,7 +117,7 @@ enforcement-workflow = ".github/workflows/estate-rules.yml"
 #                             "V-TRIPLE" section header, "V-triple
 #                             connectors" comment in groove.a2ml).
 # 3. chore/md-to-adoc         Port general docs in docs/ from .md to .adoc;
-#                             update validate-template.sh to accept .adoc
+#                             (validate-template.sh removed at mint)
 #                             fallbacks.
 # 4. chore/estate-rules-ci    Add scripts/check-no-md-in-docs.sh + check-no-
 #                             vlang.sh + .github/workflows/estate-rules.yml.
@@ -128,7 +128,6 @@ enforcement-workflow = ".github/workflows/estate-rules.yml"
 # scripts/check-root-shape.sh      Root allowlist validator
 # scripts/check-no-md-in-docs.sh   AsciiDoc-by-default validator
 # scripts/check-no-vlang.sh        zig ban validator
-# scripts/validate-template.sh     Aggregate RSR compliance (workflows, SPDX, etc.)
 
 # === Reference memory entries (for AI agents) ===
 # feedback_adoc_default_md_for_githealth   AsciiDoc-by-default rule

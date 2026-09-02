@@ -222,7 +222,7 @@ validate_a2ml() {
     # policies/*, integrations/*, …). Per the RSR convention these carry
     # identity structurally — owning repo + path + filename — not via an
     # in-file `name`/`agent-id`. This generalises the `machine-readable/descriptiles/`
-    # rationale above to the whole tree: rsr-template-repo itself ships these
+    # rationale above to the whole tree: tardis-rule-disruption itself ships these
     # files without an in-file identity key, so requiring one produces
     # estate-wide false positives on every repo built from the canonical
     # template. Files outside `machine-readable/` are still validated.

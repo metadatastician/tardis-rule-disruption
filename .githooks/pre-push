@@ -4,7 +4,7 @@
 #
 # pre-push — local Dogfood Gate.
 #
-# Runs the SAME A2ML + K9 validators the CI Dogfood Gate runs, but here on
+# Runs the A2ML validator, but here on
 # your machine before the push leaves, so format drift is caught in seconds
 # instead of surfacing as red CI minutes later. The vendored validators in
 # this directory are byte-identical to the pinned CI action scripts and are
@@ -37,11 +37,10 @@ run() {
 }
 
 run "A2ML manifests" "validate-a2ml.sh"
-run "K9 contracts"    "validate-k9.sh"
 
 if [ "$status" -ne 0 ]; then
   echo "" >&2
-  echo "[pre-push] BLOCKED: A2ML/K9 validation failed (see errors above)." >&2
+  echo "[pre-push] BLOCKED: A2ML validation failed (see errors above)." >&2
   echo "[pre-push] Fix the files, or override with:  git push --no-verify" >&2
   exit 1
 fi

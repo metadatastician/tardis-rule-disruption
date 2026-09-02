@@ -25,10 +25,6 @@ predecessors did.
 | yes
 | ROOT, so the copies formerly under machine-readable/ai/ were inert.
 
-| `.devcontainer/`
-| optional
-| VS Code dev container spec; present only where the container capability is declared
-
 | `.editorconfig`
 | yes
 | -
@@ -109,18 +105,6 @@ predecessors did.
 | yes
 | -
 
-| `abi.ipkg`
-| optional
-| Idris2 package for the ABI seam; only where the abi capability is declared
-
-| `archetypes/`
-| optional
-| template-only variation seam (ADR-0003); `just repo-init` removes it from minted repos
-
-| `benches/`
-| optional
-| Cargo-conventional at package root
-
 | `build/`
 | yes
 | build orchestration: just/ phase modules, container/, docs-seed/, templates/
@@ -136,18 +120,6 @@ predecessors did.
 | `docs/`
 | yes
 | human documentation
-
-| `examples/`
-| optional
-| Cargo-conventional at package root
-
-| `features/`
-| optional
-| optional feature packs
-
-| `guix.scm`
-| optional
-| `guix build -f guix.scm` requires it at root; only where reproducible-build is declared
 
 | `machine-readable/`
 | yes
@@ -165,10 +137,6 @@ predecessors did.
 | yes
 | dispatch.sh, custom-checks.k9, local-hooks.sh
 
-| `sonar-project.properties`
-| optional
-| only where the repo is analysed by SonarCloud
-
 | `src/`
 | yes
 | -
@@ -176,10 +144,6 @@ predecessors did.
 | `tests/`
 | yes
 | -
-
-| `verification/`
-| optional
-| proofs; only where formal-proofs is declared
 
 |===
 
@@ -205,6 +169,7 @@ your own repo - but do not read their emptiness as neglect here.
 | `docs/governance/planning/could/`
 | `docs/governance/planning/must/`
 | `docs/governance/planning/should/`
+| `docs/reports/`
 | `docs/reports/compliance/`
 | `docs/reports/maintenance/`
 | `docs/reports/performance/`
@@ -223,10 +188,8 @@ your own repo - but do not read their emptiness as neglect here.
 | `docs/whitepapers/industry/`
 | `docs/whitepapers/outreach/`
 | `docs/wikis/`
-| `examples/`
-| `features/boj-server/`
-| `features/panic-attacker/`
 | `machine-readable/scripts/verification/`
+| `src/`
 | `src/aspects/`
 | `src/aspects/integrity/`
 | `src/aspects/observability/`
@@ -236,16 +199,11 @@ your own repo - but do not read their emptiness as neglect here.
 | `src/core/`
 | `src/definitions/`
 | `src/errors/`
+| `src/interface/`
+| `src/interface/Abi/`
 | `src/interface/generated/`
 | `src/interface/generated/abi/`
 | `tests/fuzz/`
-| `verification/benchmarks/`
-| `verification/coverage/`
-| `verification/fuzzing/`
-| `verification/safety_case/`
-| `verification/simulations/`
-| `verification/tests/`
-| `verification/traceability/`
 |===
 
 == Where things are enforced

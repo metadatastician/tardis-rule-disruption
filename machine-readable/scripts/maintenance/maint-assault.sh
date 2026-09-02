@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-BINARY_NAME="{{project}}"
+BINARY_NAME="tardis_rule_disruption"
 REPORT_PATH="docs/reports/security/assault-latest.json"
 PA_BIN="${PANIC_ATTACK_BIN:-panic-attack}"
 
@@ -31,10 +31,10 @@ fi
 echo "Initiating full assault on $BINARY_NAME..."
 mkdir -p "$(dirname "$REPORT_PATH")"
 
-"$PA_BIN" assault "target/release/$BINARY_NAME" 
-    --source . 
-    --intensity medium 
-    --duration 10 
+"$PA_BIN" assault "target/release/$BINARY_NAME"
+    --source .
+    --intensity medium
+    --duration 10
     --output "$REPORT_PATH"
 
 echo ""

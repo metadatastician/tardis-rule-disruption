@@ -5,11 +5,11 @@
 #
 [metadata]
 version = "0.1.0"
-last-updated = "{{CURRENT_DATE}}"
+last-updated = "2026-09-02"
 
 [project]
-name = "[YOUR-REPO-NAME]"
-purpose = "{{PROJECT_DESCRIPTION}}"
+name = "TARDIS"
+purpose = "Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line."
 
 [ai-allocation]
 agents = [

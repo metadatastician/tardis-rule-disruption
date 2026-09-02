@@ -1,15 +1,15 @@
 # SPDX-License-Identifier: MPL-2.0
-# Copyright (c) {{CURRENT_YEAR}} {{AUTHOR}} ({{OWNER}}) <{{AUTHOR_EMAIL}}>
+# Copyright (c) 2026 Jonathan D.A. Jewell (metadatastician) <j.d.a.jewell@open.ac.uk>
 #
 # ANCHOR.a2ml - authoritative anchor for this repository
 
 [metadata]
 version = "1.0.0"
-last-updated = "{{CURRENT_DATE}}"
+last-updated = "2026-09-02"
 
 [anchor]
 schema = "hyperpolymath.anchor/1"
-repo = "{{OWNER}}/{{REPO}}"
+repo = "metadatastician/tardis-rule-disruption"
 authority = "upstream-canonical"
 
 purpose = [
@@ -19,13 +19,14 @@ purpose = [
 ]
 
 [identity]
-project = "{{PROJECT_NAME}}"
-kind = "{{PROJECT_KIND}}"                # language | library | service | tool
-one-sentence = "{{PROJECT_PURPOSE}}"
-domain = "{{PROJECT_DOMAIN}}"
+project = "TARDIS"
+kind = "interactive-experience"
+one-sentence = "Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line."
+domain = "Stealth Glider line: reserved seventh investigation, scope not yet specified"
 
 [semantic-authority]
-policy = "canonical"
+policy = "satellite"
+upstream = "metadatastician/stealth-glider-ecosystem"
 
 owns = [
   "Project semantics and specification",
@@ -35,13 +36,10 @@ owns = [
 
 [implementation-policy]
 allowed = ["Rust", "Idris2", "Zig", "Scheme", "Shell", "Just", "AsciiDoc", "Markdown"]
-forbidden = ["Node.js", "npm"]
+forbidden = ["Node.js", "npm", "Python"]
 
 [golden-path]
-smoke-test-command = [
-  "just test",
-  "just quality",
-]
+smoke-test-command = ["just test"]
 
 success-criteria = [
   "Core tests pass",
@@ -50,13 +48,16 @@ success-criteria = [
 ]
 
 [satellite-policy]
-must-pin-upstream = true
+must-pin-upstream = true   # this repo pins the hub below
 must-declare-authority = true
 must-have-anchor = true
 must-have-golden-path = true
 
 [semantic-authority-files]
-language-spec = "SPECIFICATION.md"
-formal-proofs = "docs/proofs/PROOFS.adoc"
-type-theory = "docs/theory/THEORY.adoc"
-algorithms = "docs/theory/ALGORITHMS.adoc"
+roadmap = "docs/status/ROADMAP.adoc"
+lineage = "machine-readable/descriptiles/ECOSYSTEM.a2ml"
+
+[upstream.hub]
+repo = "metadatastician/stealth-glider-ecosystem"
+path = "machine-readable/descriptiles/ECOSYSTEM.a2ml"
+pin = "TODO-tag"

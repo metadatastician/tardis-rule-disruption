@@ -46,7 +46,7 @@ case "$MODE" in
       basis="$CO/receipts/reanchor-basis.a2ml"
       # repo name from the CLADE descriptile, not a hardcoded literal — this
       # script is shared verbatim by every repo instantiated from
-      # rsr-template-repo, so a literal "rsr-template-repo" here would
+      # tardis-rule-disruption, so a literal "tardis-rule-disruption" here would
       # misreport every one of them.
       repo_name="$(grep -oP '^canonical-name = "\K[^"]+' "$ROOT/machine-readable/descriptiles/CLADE.a2ml" | head -1)"
       {

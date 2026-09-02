@@ -1,23 +1,19 @@
 // SPDX-License-Identifier: CC-BY-SA-4.0
 // Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
-= YOUR Template Repo Roadmap
+= TARDIS Roadmap
 
-== Current Status
+== Current status
 
-Initial development phase.
+Reserved. This is the seventh investigation in the Stealth Glider line; its scope
+is not yet specified. The series roadmap lives in the coordination hub,
+https://github.com/metadatastician/stealth-glider-ecosystem[stealth-glider-ecosystem].
 
 == Milestones
 
-=== v0.1.0 - Foundation
-* [ ] Core functionality
-* [ ] Basic documentation
-* [ ] CI/CD pipeline
+=== Reserved (done)
+* [x] Identity, lineage and estate scaffold minted from rsr-template-repo
 
-=== v1.0.0 - Stable Release
-* [ ] Full feature set
-* [ ] Comprehensive tests
-* [ ] Production ready
-
-== Future Directions
-
-_To be determined based on community feedback._
+=== Specified (next)
+* [ ] Record the investigation's question and boundaries here and in
+      `machine-readable/descriptiles/ECOSYSTEM.a2ml`
+* [ ] Move CLADE phase from `reserved` to `incubating`

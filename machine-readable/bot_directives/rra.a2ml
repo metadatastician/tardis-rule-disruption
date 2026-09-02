@@ -7,13 +7,13 @@
 
   (bot-directive
     (target "robot-repo-automaton")
-    
+
     (module "root-cleaner"
       ;; mode can be 'enforce' (auto-commit) or 'putative' (write to /.auto-rr/ for human review)
       (policy
         (mode "putative")
         (strictness "high"))
-      
+
       ;; Files that are strictly allowed to exist at the root
       (allow-list
         (file "README.adoc")
@@ -31,20 +31,20 @@
         (move (pattern "GOVERNANCE.*") (dest "docs/"))
         (move (pattern "ARCHITECTURE.*") (dest "docs/"))
         (move (file "MAINTAINERS.adoc") (dest "docs/")))
-      
+
       ;; Consolidation rules: Reduce the dotfile "wall of noise"
       (consolidations
         ;; Merge legacy environment trackers into mise
-        (merge 
+        (merge
           (sources ".envrc" ".tool-versions")
           (engine "mise-translator")
           (dest ".config/mise.toml"))
-        
+
         ;; Ensure standard git attributes are consolidated
         (merge
           (sources ".gitattributes-legacy" ".gitattributes-os")
           (dest ".gitattributes")))
-      
+
       ;; Explicitly ignore certain paths from being cleaned
       (ignores
         (dir "src/")

@@ -1,45 +1,28 @@
 # SPDX-License-Identifier: MPL-2.0
-# ECOSYSTEM.a2ml — Ecosystem position (META-TEMPLATE)
-#
-# This is the ECOSYSTEM file for rsr-template-repo itself. It records the
-# TEMPLATE's own position in the estate. When consumed by a new project,
-# replace these fields with the target project's ecosystem position and
-# related projects (see the NOTE FOR CONSUMERS at the bottom).
 
 [metadata]
-project = "rsr-template-repo"
-ecosystem = "hyperpolymath"
+project = "tardis-rule-disruption"
+ecosystem = "metadatastician"
 
 [position]
-type = "repository-template"
-purpose = "Canonical RSR-compliant repository template: scaffolding (CI/CD, AI manifests, ABI/FFI standards, container ecosystem, governance) that new hyperpolymath projects are instantiated from."
-# IS-NOT — anti-identity (the boundary-erosion guard; each line is a real past confusion)
+type = "interactive-experience"
+purpose = "Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line."
 what-this-is-not = [
-  "a project in its own right",
-  "Scaffoldia (the full-featured repo designer)",
-  "standards (the canon source this template operationalises)",
+  "a shipped or playable game",
+  "a specification of what this investigation will contain",
+  "a rename or fork of any earlier Stealth Glider project",
+  "the coordination hub for the line",
 ]
 
 [pipeline]
-position = "foundation"
-chain = "standards → rsr-template-repo → (every estate repo)"
-notes = "rsr-template-repo turns the RSR standard into runnable scaffolding. New repos are created from it via `just repo-init`, which substitutes the {{PLACEHOLDER}} tokens."
-coordination = "standards"
+position = "seventh Stealth Glider investigation"
+chain = "f19-stealth-glider -> f117a-stealth-glider -> sr71-blackglider -> x15-rocket-glider -> planer-1 -> enterglide-ncc-137-k -> tardis-rule-disruption"
+notes = "Reserved slot. Scope is filled by pull request once the investigation is specified; until then this repository holds only its identity, its place in the line and the estate scaffold."
+coordination = "metadatastician/stealth-glider-ecosystem"
 
 [related-projects]
 projects = [
-  { name = "standards", relationship = "standard-source", notes = "Defines the RSR standard, contractile canon, and policies that this template operationalises." },
-  { name = "stapeln", relationship = "build-tooling", notes = "Layer-based container build system; the template ships stapeln.toml scaffolding." },
-  { name = "selur-compose", relationship = "build-tooling", notes = "Service composition; the template ships selur-compose.toml scaffolding." },
-  { name = "k9-svc", relationship = "validation-tooling", notes = "Runs the self-validating k9.ncl checks (machine-readable/self-validating/)." },
-  { name = "cerro-torre", relationship = "signing-tooling", notes = "Container/image signing provider referenced by the container scaffolding." },
-  { name = "svalinn", relationship = "verification-tooling", notes = "Supply-chain verification referenced by the container scaffolding." },
-  { name = "vordr", relationship = "verification-tooling", notes = "Build/artifact verification referenced by the container scaffolding." },
+  { name = "enterglide-ncc-137-k", relationship = "conceptual predecessor", notes = "Previous investigation in the Stealth Glider line." },
+  { name = "stealth-glider-ecosystem", relationship = "coordination hub", notes = "Holds the canonical chain and membership manifest for the line." },
+  { name = "rsr-template-repo", relationship = "repository template", notes = "Canonical RSR scaffold from which this repository was minted." },
 ]
-
-# ---------------------------------------------------------------------------
-# NOTE FOR CONSUMERS: When using this template to create a new repo, replace
-# the project/purpose above and rewrite [related-projects] to describe YOUR
-# project's actual ecosystem. The entries above describe the TEMPLATE's own
-# position, not yours.
-# ---------------------------------------------------------------------------
