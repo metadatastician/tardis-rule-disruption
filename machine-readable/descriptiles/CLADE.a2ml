@@ -110,6 +110,11 @@ phase = "reserved"
 since = "2026-09-02"
 note = "reserved as seventh Stealth Glider investigation; content not yet specified; not yet registered in gv-clade-index"
 
+[[status.history]]
+phase = "reserved"
+since = "2026-09-02"
+note = "intent recorded (owner ruling 2026-09-02); phase stays reserved — intent is not work begun"
+
 # ---------------------------------------------------------------------------
 # REGISTRATION IS NOT DERIVATION. Deriving the uuid above does not register this
 # repo. Registration means an entry in gv-clade-index verisim/seed/repos.a2ml,

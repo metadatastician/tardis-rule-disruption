@@ -9,15 +9,23 @@ image:https://img.shields.io/badge/Docs-CC--BY--SA--4.0-blue.svg?logo=creativeco
 image:https://img.shields.io/badge/RSR-Rhodium_Standard-9C27B0[Rhodium Standard Repository,link="https://github.com/hyperpolymath/rhodium-standard-repositories"]
 image:https://img.shields.io/badge/status-reserved-lightgrey[Reserved placeholder]
 
-_Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line._
+_Seventh Stealth Glider investigation (reserved). TARDIS = Totally-Adherent Rule-Disruption Imitation System: make a Conway Game of Life set-up look as much like 'reality' as it possibly can while never breaking B3/S23. 'Totally' is deliberate: it only appears to break the rules. Hard invariant: Conway-lawful (checkable). Open target: resembles reality (unmeasured until a measure is chosen). Lifetime, open-ended research, probably never completed; adaptable as a maths challenge, education on constraints or game-design thinking. Intent recorded 2026-09-02 (owner ruling); no implementation yet._
 
 [IMPORTANT]
 ====
 This repository is a *reserved placeholder*. It holds the project's identity,
-its position in the Stealth Glider line and the estate scaffold. It contains no
-implementation, no specification and no playable artefact. The investigation's
-scope will be filled in by pull request when it is specified.
+its position in the Stealth Glider line, the recorded intent (below) and the
+estate scaffold. It contains no implementation, no formal specification and no
+playable artefact. Work begins by pull request; the CLADE phase moves to
+`incubating` only when the first content lands.
 ====
+
+== Intent
+
+TARDIS is the full thing, a super step ahead of the rest of the line: find a way to make a Conway Game of Life set-up look as much like "reality" as it can possibly be, with the absolute requirement of never breaking the laws. The acronym leads with *Totally* on purpose: Totally-Adherent Rule-Disruption Imitation System. It is about *appearing* to break the rules even though that is not what happens. Two parts are recorded separately. The hard invariant is that B3/S23 is never broken, which is checkable. The open target is that the result resembles reality, which stays unmeasured until a measure is chosen. It is a lifetime, open-ended research project, probably never to be completed and quite possibly impossible; the hope is that after all the mathematics games and demonstrations along the way, people will think that maybe anything is possible, or close to it, and take it off in other directions with weird applications. Even if the reality target is out of reach, it is adaptable as a maths challenge, an educational piece on constraints, or game-design thinking. The owner's own tagline, offered as a joke: "maybe I'm the next Euclid... Euclid with cells rather than the floorboard tiles."
+
+Recorded 2026-09-02 by owner ruling. Intent is not work begun: the CLADE phase
+stays `reserved` until the first content lands.
 
 == Position in the line
 

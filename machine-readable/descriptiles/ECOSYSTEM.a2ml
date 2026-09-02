@@ -6,10 +6,10 @@ ecosystem = "metadatastician"
 
 [position]
 type = "interactive-experience"
-purpose = "Seventh Stealth Glider investigation. Totally-Adherent Rule-Disruption Imitation System: a machine that visibly appears to break and simulate disruption of rules while remaining mathematically Conway-lawful underneath. Reserved placeholder in the metadatastician Stealth Glider line."
+purpose = "Seventh Stealth Glider investigation (reserved). TARDIS = Totally-Adherent Rule-Disruption Imitation System: make a Conway Game of Life set-up look as much like 'reality' as it possibly can while never breaking B3/S23. 'Totally' is deliberate: it only appears to break the rules. Hard invariant: Conway-lawful (checkable). Open target: resembles reality (unmeasured until a measure is chosen). Lifetime, open-ended research, probably never completed; adaptable as a maths challenge, education on constraints or game-design thinking. Intent recorded 2026-09-02 (owner ruling); no implementation yet."
 what-this-is-not = [
   "a shipped or playable game",
-  "a specification of what this investigation will contain",
+  "a claim that the reality target is achievable, or a measure of it (only the intent is recorded)",
   "a rename or fork of any earlier Stealth Glider project",
   "the coordination hub for the line",
 ]
@@ -17,7 +17,7 @@ what-this-is-not = [
 [pipeline]
 position = "seventh Stealth Glider investigation"
 chain = "f19-stealth-glider -> f117a-stealth-glider -> sr71-blackglider -> x15-rocket-glider -> planer-1 -> enterglide-ncc-137-k -> tardis-rule-disruption"
-notes = "Reserved slot. Scope is filled by pull request once the investigation is specified; until then this repository holds only its identity, its place in the line and the estate scaffold."
+notes = "Reserved slot with intent recorded 2026-09-02 (owner ruling). Intent is not work begun: the phase stays reserved until the first content lands by pull request; until then this repository holds its identity, its place in the line, the recorded intent and the estate scaffold."
 coordination = "metadatastician/stealth-glider-ecosystem"
 
 [related-projects]
