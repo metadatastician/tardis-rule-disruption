@@ -27,6 +27,28 @@ TARDIS is the full thing, a super step ahead of the rest of the line: find a way
 Recorded 2026-09-02 by owner ruling. Intent is not work begun: the CLADE phase
 stays `reserved` until the first content lands.
 
+=== Falsifiability shape (proposed wording, owner to settle)
+
+The open target has no measure yet, so without a declared shape the project
+could never be shown wrong. Proposed shape, recorded so it can be argued with
+rather than assumed:
+
+. Work proceeds facet by facet: one aspect of "reality" at a time.
+. Before a facet is attempted, three things are written down in that facet's
+  own record: the facet being imitated, the measure of resemblance for it,
+  and the acceptability bound the Conway construction must reach on that
+  measure. Declaring them after the attempt does not count.
+. A facet is falsified only by a proof that no construction in the declared
+  class can reach the bound, or by exhausting the declared class. A near miss
+  is a result, not a falsification.
+. A falsified facet closes that facet, never the project. The one thing that
+  can terminate a facet outright is a proof that reaching its bound requires
+  breaking B3/S23, because the hard invariant is the one thing never traded.
+
+Until the owner settles this wording it is a proposal, not a gate. The same
+text is proposed in the hub roadmap (stealth-glider-ecosystem
+docs/status/ROADMAP.adoc, Stage 7).
+
 == Position in the line
 
 TARDIS is the seventh investigation in the Stealth Glider line:
