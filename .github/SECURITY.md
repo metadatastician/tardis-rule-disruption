@@ -307,7 +307,7 @@ To stay informed about security updates:
 
 - **Watch this repository**: Click "Watch" → "Custom" → Select "Security alerts"
 - **GitHub Security Advisories**: Published at [Security Advisories](https://github.com/metadatastician/tardis-rule-disruption/security/advisories)
-- **Release notes**: Security fixes noted in [CHANGELOG](../CHANGELOG.md)
+- **Release notes**: Security fixes noted in [CHANGELOG](../CHANGELOG.adoc)
 
 ### Update Policy
 
@@ -355,7 +355,7 @@ When using TARDIS, we recommend:
 ## Additional Resources
 
 - [Security Advisories](https://github.com/metadatastician/tardis-rule-disruption/security/advisories)
-- [Changelog](../CHANGELOG.md)
+- [Changelog](../CHANGELOG.adoc)
 - [Contributing Guidelines](CONTRIBUTING.md)
 - [CVE Database](https://cve.mitre.org/)
 - [CVSS Calculator](https://www.first.org/cvss/calculator/3.1)
